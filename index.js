@@ -6,3 +6,10 @@ const printSquareNumbers = (n) => {
 printSquareNumbers(5);
 //will print: 1, 4, 9, 16, 25
 // Final output is: 55
+let sum = 0;
+for (let i = 1; i <= n; i++) {
+  let square = i * i;
+  console.log(square);
+  sum += square;
+}
+console.log("Final output is: " + sum);
